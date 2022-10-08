@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>URNA ELETRONICA IMBROCHAVEL</title>
+</head>
+<body>
+    <div class="urna">
+        <div class="urna-tela">
+            <div class="candidato">
+                <h1>PRESIDENTE DO BRASIL</h1>
+                    <div class="numeros">
+                        <div class="numero" id="num1" ></div>
+                    </div>
+                
+                <LAbel>NOME :</LAbel>
+                <p id="nome"> <strong id="nome"></strong> </p>
+                <label>PARTIDO :</label>
+                <p id="partido"> <strong id="partido"></strong> </p>
+            </div>
+            <div class="foto" id="candidato"></div>
+        </div>
+        <div class="urna-teclado">
+            <div class="bloco-um">
+                <div class="urna-teclas">
+                    <button id="n7" onclick="adicionar('7')" >7</button>
+                    <button id="n8" onclick="adicionar('8')">8</button>
+                    <button id="n7" onclick="adicionar('9')" >9</button>
+                </div>
+                <div class="urna-teclas">
+                    <button onclick="adicionar('4')" >4</button>
+                    <button onclick="adicionar('5')" >5</button>
+                    <button onclick="adicionar('6')" >6</button>
+                </div>
+                <div class="urna-teclas">
+                    <button onclick="adicionar('1')">1</button>
+                    <button onclick="adicionar('2')">2</button>
+                    <button onclick="adicionar('3')">3</button>
+                </div>
+            </div>
+            <div class="resultado">
+                <button class="especial " id="branco"  onclick="limpar()" >BRANCO</button>
+                <button class="especial " id="corrigir" onclick="corrigir()">CORRIGIR</button>
+                <button class="especial" id="confirmar" onclick="confirmar()">CONFIRMAR</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="mani.js"></script>
+</body>
+</html>
