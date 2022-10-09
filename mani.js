@@ -57,6 +57,42 @@ function confirmar(){
         nome.innerHTML = "MARCELO MARTELO"
         partido.innerHTML = "PARTIDOR DE CORAÇÕES"
 
+    }else if( resposta == "48"){
+        img.src= "./48.jpeg";
+        img.style.width= "150px"
+        divisao.appendChild(img);
+
+
+        let nome = document.getElementById("nome");
+        let partido = document.getElementById("partido");
+
+        nome.innerHTML = "ENDREW MACONHEIRO"
+        partido.innerHTML = "SLA MANO SÓ APERTA O VERDE LOGO KKKK"
+
+    }else if( resposta == "23"){
+        img.src= "./23.jpeg";
+        img.style.width= "150px"
+        divisao.appendChild(img);
+
+
+        let nome = document.getElementById("nome");
+        let partido = document.getElementById("partido");
+
+        nome.innerHTML = "MARCOS PAULO"
+        partido.innerHTML = "FODASE "
+
+    }else if( resposta == "31"){
+        img.src= "./31.jpeg";
+        img.style.width= "150px"
+        divisao.appendChild(img);
+
+
+        let nome = document.getElementById("nome");
+        let partido = document.getElementById("partido");
+
+        nome.innerHTML = "IBMR "
+        partido.innerHTML = " ( QUER DESCONTO MANO ? KKK )"
+
     }
 
 }

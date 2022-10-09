@@ -126,4 +126,22 @@ button{
     color: black;
 }
 
+@media (max-width: 400px)
+{
 
+    .urna{
+        width: 100%;
+        margin: 0.5rem;
+    }
+    .urna-teclado{
+        width:250px;
+        height: 70%;
+        display: flex;
+        margin: 0.5rem;
+        padding: 5px;
+    }
+
+    .urna-teclas{
+        margin: 8px;
+    }
+}
